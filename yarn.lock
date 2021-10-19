@@ -2627,11 +2627,11 @@ __metadata:
     "@nuxt/design": 0.1.3
     "@nuxt/devalue": ^2.0.0
     "@nuxt/kit": 3.0.0
-    "@rollup/plugin-alias": ^3.1.5
+    "@rollup/plugin-alias": ^3.1.6
     "@rollup/plugin-commonjs": ^21.0.0
-    "@rollup/plugin-inject": ^4.0.2
+    "@rollup/plugin-inject": ^4.0.3
     "@rollup/plugin-json": ^4.1.0
-    "@rollup/plugin-node-resolve": ^13.0.5
+    "@rollup/plugin-node-resolve": ^13.0.6
     "@rollup/plugin-replace": ^3.0.0
     "@rollup/plugin-virtual": ^2.0.3
     "@rollup/plugin-wasm": ^5.1.2
@@ -3178,7 +3178,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-alias@npm:^3.1.4, @rollup/plugin-alias@npm:^3.1.5":
+"@rollup/plugin-alias@npm:^3.1.4":
   version: 3.1.5
   resolution: "@rollup/plugin-alias@npm:3.1.5"
   dependencies:
@@ -3186,6 +3186,17 @@ __metadata:
   peerDependencies:
     rollup: ^1.20.0||^2.0.0
   checksum: cb443691ef2480de3c3aa99ab6ce591854ee54d1736e6c71f6e6061b418f183cf571cbe889e52efe997ffe20bac5e4bf5fbbf39f1086987febeb35fb08277419
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-alias@npm:^3.1.6":
+  version: 3.1.6
+  resolution: "@rollup/plugin-alias@npm:3.1.6"
+  dependencies:
+    slash: ^3.0.0
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0
+  checksum: c9c574aaa8af8f50ce763562773faa8a0ffe36a1b18431b34a6eea411cc3691c6b8ef1d8adc4655f317819847a54220a5636c07b0b4cbf89542c11d81d33cce0
   languageName: node
   linkType: hard
 
@@ -3206,16 +3217,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-inject@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "@rollup/plugin-inject@npm:4.0.2"
+"@rollup/plugin-inject@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "@rollup/plugin-inject@npm:4.0.3"
   dependencies:
-    "@rollup/pluginutils": ^3.0.4
-    estree-walker: ^1.0.1
-    magic-string: ^0.25.5
+    "@rollup/pluginutils": ^3.1.0
+    estree-walker: ^2.0.1
+    magic-string: ^0.25.7
   peerDependencies:
     rollup: ^1.20.0 || ^2.0.0
-  checksum: f3e35f76fbba3fc7576ba5bcaf0304521033c8faaece98a1b903647513d9318377231f4f0b841bdfecbfc09659bd2d3481134e767ab5ea418fc5a52cc26756de
+  checksum: d92deb7144ce84651da2ce45f137d66ede144804aa29676fd0f4313c3b5dea89087813a5c8e60bd9776779fc8a6bc751c42ae0e5bba4dac653fd654936b21b45
   languageName: node
   linkType: hard
 
@@ -3243,6 +3254,22 @@ __metadata:
   peerDependencies:
     rollup: ^2.42.0
   checksum: d7d5b55d3623f8869237187aa1e2895f4a81ced125be67548b15b6aa590eec5a0569a1add3cf1918e9e82686e6115c67c596b963aff7f8bf229194b058243e50
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-node-resolve@npm:^13.0.6":
+  version: 13.0.6
+  resolution: "@rollup/plugin-node-resolve@npm:13.0.6"
+  dependencies:
+    "@rollup/pluginutils": ^3.1.0
+    "@types/resolve": 1.17.1
+    builtin-modules: ^3.1.0
+    deepmerge: ^4.2.2
+    is-module: ^1.0.0
+    resolve: ^1.19.0
+  peerDependencies:
+    rollup: ^2.42.0
+  checksum: da304025ca898f3ad70e3a24d788634298f2ca6e139517adff43f27ea9cf821af3ee3530ca6f8abaf7e697294b59803837cd8f0ec22e3b1d34d3411c39e9a32c
   languageName: node
   linkType: hard
 
@@ -3276,7 +3303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^3.0.4, @rollup/pluginutils@npm:^3.0.8, @rollup/pluginutils@npm:^3.1.0":
+"@rollup/pluginutils@npm:^3.0.8, @rollup/pluginutils@npm:^3.1.0":
   version: 3.1.0
   resolution: "@rollup/pluginutils@npm:3.1.0"
   dependencies:
@@ -12337,7 +12364,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.25.5, magic-string@npm:^0.25.7":
+"magic-string@npm:^0.25.7":
   version: 0.25.7
   resolution: "magic-string@npm:0.25.7"
   dependencies:
